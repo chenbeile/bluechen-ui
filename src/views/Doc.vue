@@ -18,7 +18,9 @@
           <router-link to="/doc/tabs">Tabs 组件</router-link>
         </li>
       </ol>
-      <main>主内容</main>
+      <main>
+        <router-view />
+      </main>
     </aside>
   </div>
 </div>
